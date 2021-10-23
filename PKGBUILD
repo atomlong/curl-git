@@ -39,6 +39,7 @@ build() {
       --enable-threaded-resolver \
       --with-gssapi \
       --with-libssh2 \
+	  --with-openssl \
       --with-random=/dev/urandom \
       --with-ca-bundle=/etc/ssl/certs/ca-certificates.crt
 
